@@ -1,0 +1,34 @@
+{
+    "games": [
+        {
+            "id":1,
+            "name":"Ascension",
+            "playerCount":4,
+            "time":90,
+            "desc":"Fantasy deck-builder with faction-based synergies. Collect heroes and structures to enrich your deck or defeat monsters to gain honor!",
+            "image": "src/assets/gameImages/ascension.jpg",
+            "tutorial": "https://www.youtube.com/watch?v=LJmBvb_oMdg",
+            "tags":["deck building","competitive"]
+        },
+        {
+            "id":2,
+            "name":"Dominion",
+            "playerCount":4,
+            "time":30,
+            "desc":"Renaissance deck-builder with modular buy-cards. Purchase cards to strenthen your purchasing power and collect victory point cards!",
+            "image": "src/assets/gameImages/dominion.jpg",
+            "tutorial": "https://www.youtube.com/watch?v=KnO72F1ybHs",
+            "tags":["deck building","competitve"]
+        },
+        {
+            "id":3,
+            "name":"Mycelia",
+            "playerCount":4,
+            "time":45,
+            "desc":"Fantasy deck-builder with board management. Collect mushroom people to improve your deck and bring dewdrops from your board to the Shrine of Life!",
+            "image": "src/assets/gameImages/mycelia.jpg",
+            "tutorial": "https://www.youtube.com/watch?v=Znn6f-W95_M",
+            "tags":["deck building","board management","competitve"]
+        }
+    ]
+}
