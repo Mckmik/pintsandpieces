@@ -68,7 +68,7 @@ function Home(){
             <p className='mochiy-pop-one-regular'>{firstSunday.toLocaleDateString()}</p>
             <p className='mochiy-pop-one-regular'>1PM - 5PM</p>
             <p className='mochiy-pop-one-regular'><a href="https://drinkmeadhall.com/">Mead Hall</a></p>
-            <p>Join me for some strategy games and delicious mead, beer, and cocktails! We will split into smaller groups if needed. Link to all my games at the bottom, text me if theres something you want to play!</p>
+            <p>Join me for some strategy games and delicious mead, beer, and cocktails! We will split into smaller groups if needed. Link to all my games at the bottom, text me if there's something you want to play!</p>
         </div>
         <div>
         <p> Games I'm bringing:</p>
