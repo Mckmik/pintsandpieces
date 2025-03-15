@@ -66,6 +66,7 @@ function AllGames(){
             <h2 className='mochiy-pop-one-regular'>All Games</h2>
             <Link className='mochiy-pop-one-regular' to="/">Home</Link>
             <div>{data.children.map(item => <Boardgame key={item.attributes.collid} {...{...item.children,...{"objectId":item.attributes.objectid}}}/>)}</div>
+            <div><Link className='mochiy-pop-one-regular' to="/">Home</Link></div>
         </>
         
     )

@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import AllGames from './Routes/AllGames';
 import Home from './Routes/Home';
+import NoMatch from './Routes/NoMatch';
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/allgames" element={<AllGames />} />
+          <Route path="*" element={<NoMatch />} />
+
         </Routes>
       </BrowserRouter>
       <a href='https://boardgamegeek.com/'>

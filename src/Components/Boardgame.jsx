@@ -27,7 +27,7 @@ function Boardgame(game) {
     // console.log(bg.name);
 
     return loading ? (<p>Loading...</p>): (
-        <>
+        <div className="card">
             <a href={bg.bgg} target="_blank">
                 <img src={bg.image} style={{ 
                         margin: 'auto',
@@ -37,7 +37,7 @@ function Boardgame(game) {
             </a>
             <h3 dangerouslySetInnerHTML={ {__html: bg.name}}></h3>
             <p>{bg.minplayers == bg.maxplayers ? bg.maxplayers : bg.minplayers +' - '+bg.maxplayers} players | {bg.minplaytime == bg.maxplaytime? bg.maxplaytime : bg.minplaytime +' - '+bg.maxplaytime} minutes</p>
-    </>
+        </div>
     )
 }
 export default Boardgame
